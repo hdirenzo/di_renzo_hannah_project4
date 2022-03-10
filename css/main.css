@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#container
+{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#box1 
+{
+    background-color: #D61D1D;
+    width: 70%;
+    height: 300px;
+}
+#box2{
+    background-color: #41a7e2;
+    width: 30%;
+    height: 300px;
+    
+}
+
+@media screen and (max-width:600px) {
+    #box1{
+        background-color: #6d0f0f;
+        width: 50%;
+
+    }
+    #box2 {
+        background-color: #185177;
+    }
+    
+}
